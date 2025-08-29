@@ -30,8 +30,15 @@ export default function BlogPage() {
       </nav>
 
       <div className="container mx-auto px-4 py-16 max-w-6xl">
+        <Link 
+          href="/" 
+          className="inline-flex items-center text-gray-600 hover:text-green-600 transition-colors mb-8"
+        >
+          <span className="mr-2">←</span>
+          Back to Home
+        </Link>
+        
         <div className="mb-12">
-          
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Blog
           </h1>
