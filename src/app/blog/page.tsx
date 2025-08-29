@@ -1,19 +1,36 @@
 import { BlogCard } from "@/components/BlogCard";
 import { blogPosts } from "@/lib/blog-data";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function BlogPage() {
   return (
     <div className="min-h-screen bg-gray-50">
+      {/* Header */}
+      <nav className="w-full py-4">
+        <div className="max-w-7xl mx-auto px-4">
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/SplashLogo.png"
+              alt="Leaves app icon"
+              width={40}
+              height={40}
+              className="mr-2 rounded-[22%]"
+            />
+            <Image
+              src="/LeavesLogo.png"
+              alt="Leaves"
+              width={100}
+              height={30}
+              className="object-contain"
+              style={{ filter: "brightness(0) saturate(100%) invert(44%) sepia(85%) saturate(1352%) hue-rotate(126deg) brightness(96%) contrast(87%)" }}
+            />
+          </Link>
+        </div>
+      </nav>
+
       <div className="container mx-auto px-4 py-16 max-w-6xl">
         <div className="mb-12">
-          <Link 
-            href="/" 
-            className="inline-flex items-center text-gray-600 hover:text-green-600 transition-colors mb-8"
-          >
-            <span className="mr-2">←</span>
-            Back to Home
-          </Link>
           
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Blog
@@ -46,6 +63,22 @@ export default function BlogPage() {
           </Link>
         </div>
       </div>
+
+      {/* Footer */}
+      <footer className="py-8 border-t border-gray-200">
+        <div className="max-w-7xl mx-auto px-6">
+          <nav className="flex flex-wrap justify-center gap-6 mb-4">
+            <Link href="/blog" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">Blog</Link>
+            <Link href="/privacy" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">Privacy</Link>
+            <Link href="/terms" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">Terms</Link>
+            <Link href="/contact" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">Contact</Link>
+            <Link href="/faq" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">FAQ</Link>
+          </nav>
+          <p className="text-center text-gray-500 text-xs">
+            © 2025 Leaves. All rights reserved.
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }
