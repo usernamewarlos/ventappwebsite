@@ -1,8 +1,84 @@
 import Image from "next/image";
+import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Leaves - Quit Weed & Cannabis App | Start Your Recovery Today",
+  description: "Join thousands who've successfully quit cannabis with Leaves. Track sobriety milestones, manage withdrawal symptoms, access guided meditations, and connect with a supportive recovery community.",
+  openGraph: {
+    title: "Leaves - Your Cannabis Recovery Companion",
+    description: "Break free from cannabis dependency with science-backed tools and community support",
+    url: "https://leavesapp.com",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Leaves App - Quit Cannabis Successfully",
+      },
+    ],
+  },
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://leavesapp.com"
+    }
+  ]
+};
+
+const softwareAppSchema = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Leaves - Quit Weed",
+  "operatingSystem": "iOS 12.0 or later",
+  "applicationCategory": "HealthApplication",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "ratingCount": "2847",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "Leaves App"
+  },
+  "downloadUrl": "https://apps.apple.com/app/leaves-quit-weed",
+  "featureList": [
+    "Sobriety Timer",
+    "Withdrawal Symptom Tracker",
+    "Guided Meditations",
+    "Community Support",
+    "Daily Motivation",
+    "Progress Statistics",
+    "Relapse Recovery Tools"
+  ]
+};
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareAppSchema) }}
+      />
+      <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <nav className="w-full py-4">
         <div className="max-w-7xl mx-auto px-4">
@@ -126,7 +202,7 @@ export default function Home() {
         {/* Footer */}
         <footer className="py-8 border-t border-gray-200">
           <nav className="flex flex-wrap justify-center gap-6 mb-4">
-            <a href="/blog" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">Blog</a>
+            <Link href="/blog" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">Blog</Link>
             <a href="/privacy" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">Privacy</a>
             <a href="/terms" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">Terms</a>
             <a href="/contact" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">Contact</a>
@@ -138,5 +214,6 @@ export default function Home() {
         </footer>
       </div>
     </div>
+    </>
   );
 }
