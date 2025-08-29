@@ -27,12 +27,21 @@ export default function ContactPage() {
         </div>
       </nav>
 
-      <div className="flex-grow max-w-4xl mx-auto px-6 py-12 w-full flex items-center justify-center">
-        <div className="text-center">
-          {/* Main heading */}
-          <h1 className="text-5xl font-bold text-center mb-8 text-[#1e1d1b]">
-            customer support
-          </h1>
+      <div className="flex-grow max-w-4xl mx-auto px-6 py-12 w-full">
+        <Link 
+          href="/" 
+          className="inline-flex items-center text-gray-600 hover:text-green-600 transition-colors mb-8"
+        >
+          <span className="mr-2">←</span>
+          Back to Home
+        </Link>
+        
+        <div className="flex items-center justify-center">
+          <div className="text-center">
+            {/* Main heading */}
+            <h1 className="text-5xl font-bold text-center mb-8 text-[#1e1d1b]">
+              customer support
+            </h1>
           
           {/* Description */}
           <p className="text-gray-700 mb-8 leading-relaxed">
@@ -46,10 +55,11 @@ export default function ContactPage() {
             </p>
           </div>
           
-          {/* Response time */}
-          <p className="text-gray-700 leading-relaxed">
-            We understand the importance of timely assistance, and our dedicated customer support team will do their best to get back to you within 48 hours.
-          </p>
+            {/* Response time */}
+            <p className="text-gray-700 leading-relaxed">
+              We understand the importance of timely assistance, and our dedicated customer support team will do their best to get back to you within 48 hours.
+            </p>
+          </div>
         </div>
       </div>
 

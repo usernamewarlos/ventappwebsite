@@ -65,6 +65,14 @@ export default function FAQClient() {
       </nav>
 
       <div className="max-w-4xl mx-auto px-6 py-12">
+        <Link 
+          href="/" 
+          className="inline-flex items-center text-gray-600 hover:text-green-600 transition-colors mb-8"
+        >
+          <span className="mr-2">←</span>
+          Back to Home
+        </Link>
+        
         <h1 className="text-5xl font-bold text-center mb-4 text-[#1e1d1b]">Leaves FAQ</h1>
         <p className="text-center text-gray-600 mb-12">Everything you need to know about your recovery journey</p>
 

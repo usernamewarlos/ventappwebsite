@@ -28,6 +28,14 @@ export default function Privacy() {
       </nav>
 
       <div className="max-w-4xl mx-auto px-6 py-12">
+        <Link 
+          href="/" 
+          className="inline-flex items-center text-gray-600 hover:text-green-600 transition-colors mb-8"
+        >
+          <span className="mr-2">←</span>
+          Back to Home
+        </Link>
+        
         <h1 className="text-5xl font-bold text-center mb-8 text-[#1e1d1b]">privacy policy</h1>
         
         <p className="text-gray-500 text-center mb-12 italic">last updated: August 27, 2025</p>
