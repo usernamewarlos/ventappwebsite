@@ -22,7 +22,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const renderContent = (content: string) => {
     const lines = content.trim().split("\n");
     const elements = [];
-    let currentList: string[] = [];
+    let currentList: React.ReactNode[] = [];
     let listType: "ul" | "ol" | null = null;
 
     const flushList = () => {
