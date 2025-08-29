@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function ContactPage() {
   return (
-    <div className="min-h-screen bg-[#fbfaec] flex flex-col">
+    <div className="min-h-screen bg-gray-50 flex flex-col">
       {/* Header */}
       <nav className="w-full py-4">
         <div className="max-w-7xl mx-auto px-4">
@@ -57,7 +57,7 @@ export default function ContactPage() {
       <footer className="py-8 border-t border-gray-200 mt-auto">
         <div className="max-w-7xl mx-auto px-6">
           <nav className="flex flex-wrap justify-center gap-6 mb-4">
-            <a href="#" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">Blog</a>
+            <a href="/blog" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">Blog</a>
             <a href="/privacy" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">Privacy</a>
             <a href="/terms" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">Terms</a>
             <a href="/contact" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">Contact</a>

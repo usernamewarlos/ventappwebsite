@@ -32,7 +32,10 @@
   * {
     @apply border-border;
   }
+  html {
+    @apply bg-gray-50;
+  }
   body {
-    @apply bg-[#fbfaec] text-[#1e1d1b] font-['Quicksand',sans-serif];
+    @apply bg-gray-50 text-[#1e1d1b] font-['Quicksand',sans-serif];
   }
 }
