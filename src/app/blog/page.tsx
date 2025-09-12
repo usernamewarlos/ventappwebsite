@@ -12,14 +12,14 @@ export default function BlogPage() {
           <Link href="/" className="flex items-center">
             <Image
               src="/SplashLogo.png"
-              alt="Leaves app icon"
+              alt="TBreak app icon"
               width={40}
               height={40}
               className="mr-2 rounded-[22%]"
             />
             <Image
-              src="/LeavesLogo.png"
-              alt="Leaves"
+              src="/TBreakLogo.png"
+              alt="TBreak"
               width={100}
               height={30}
               className="object-contain"
@@ -58,14 +58,14 @@ export default function BlogPage() {
             Ready to Start Your Journey?
           </h2>
           <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
-            Join thousands who have successfully quit cannabis with Leaves. 
+            Join thousands who have successfully quit cannabis with TBreak. 
             Track your progress, connect with others, and reclaim your life.
           </p>
           <Link
             href="https://apps.apple.com/app/id6738099367"
             className="inline-flex items-center gap-2 bg-green-600 text-white px-8 py-4 rounded-full font-semibold hover:bg-green-700 transition-colors"
           >
-            Download Leaves App
+            Download TBreak App
             <span>→</span>
           </Link>
         </div>
@@ -82,7 +82,7 @@ export default function BlogPage() {
             <Link href="/faq" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">FAQ</Link>
           </nav>
           <p className="text-center text-gray-500 text-xs">
-            © 2025 Leaves. All rights reserved.
+            © 2025 TBreak. All rights reserved.
           </p>
         </div>
       </footer>

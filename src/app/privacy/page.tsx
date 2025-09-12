@@ -10,14 +10,14 @@ export default function Privacy() {
           <Link href="/" className="flex items-center">
             <Image
               src="/SplashLogo.png"
-              alt="Leaves app icon"
+              alt="TBreak app icon"
               width={40}
               height={40}
               className="mr-2 rounded-[22%]"
             />
             <Image
-              src="/LeavesLogo.png"
-              alt="Leaves"
+              src="/TBreakLogo.png"
+              alt="TBreak"
               width={100}
               height={30}
               className="object-contain"
@@ -42,11 +42,11 @@ export default function Privacy() {
 
         <div className="prose prose-lg max-w-none">
           <p className="mb-8 text-gray-700">
-            At Leaves, your privacy is our priority. This Privacy Policy explains what information we collect, how we use it, and the steps we take to protect it. By using Leaves, you agree to the practices described below.
+            At TBreak, your privacy is our priority. This Privacy Policy explains what information we collect, how we use it, and the steps we take to protect it. By using TBreak, you agree to the practices described below.
           </p>
 
           <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">1. Information We Collect</h2>
-          <p className="mb-4 text-gray-700">We collect the following categories of information when you use Leaves:</p>
+          <p className="mb-4 text-gray-700">We collect the following categories of information when you use TBreak:</p>
 
           <h3 className="text-xl font-semibold mt-6 mb-3 text-[#1e1d1b]">1.1 Personal Information</h3>
           <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
@@ -56,7 +56,7 @@ export default function Privacy() {
 
           <h3 className="text-xl font-semibold mt-6 mb-3 text-[#1e1d1b]">1.2 Payment Information</h3>
           <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
-            <li>Subscription purchases are processed securely by Apple App Store or Google Play. Leaves itself does not store or process your full payment details.</li>
+            <li>Subscription purchases are processed securely by Apple App Store or Google Play. TBreak itself does not store or process your full payment details.</li>
           </ul>
 
           <h3 className="text-xl font-semibold mt-6 mb-3 text-[#1e1d1b]">1.3 Usage Data</h3>
@@ -68,7 +68,7 @@ export default function Privacy() {
 
           <h3 className="text-xl font-semibold mt-6 mb-3 text-[#1e1d1b]">1.4 Community Contributions</h3>
           <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
-            <li>Text-based posts, comments, and interactions you share in Leaves' social features.</li>
+            <li>Text-based posts, comments, and interactions you share in TBreak's social features.</li>
             <li>These contributions are subject to moderation using automated tools (including Perspective API) and may be reviewed if flagged.</li>
           </ul>
 
@@ -93,7 +93,7 @@ export default function Privacy() {
 
           <h3 className="text-xl font-semibold mt-6 mb-3 text-[#1e1d1b]">3.2 Legal Compliance</h3>
           <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
-            <li>When required by law or to protect the rights, safety, and property of Leaves, its users, or others.</li>
+            <li>When required by law or to protect the rights, safety, and property of TBreak, its users, or others.</li>
           </ul>
 
           <h3 className="text-xl font-semibold mt-6 mb-3 text-[#1e1d1b]">3.3 Business Changes</h3>
@@ -116,7 +116,7 @@ export default function Privacy() {
             <li><strong>Withdraw Consent:</strong> Revoke permissions (e.g., push notifications).</li>
           </ul>
           <p className="mb-6 text-gray-700">
-            To exercise these rights, contact us at <a href="mailto:support@quitleaves.xyz" className="text-[#1db584] hover:underline">support@quitleaves.xyz</a>.
+            To exercise these rights, contact us at <a href="mailto:support@tbreakapp.xyz" className="text-[#1db584] hover:underline">support@tbreakapp.xyz</a>.
           </p>
 
           <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">6. Data Retention</h2>
@@ -128,23 +128,23 @@ export default function Privacy() {
 
           <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">7. Tracking Technologies</h2>
           <p className="mb-6 text-gray-700">
-            Leaves does not use web cookies. We may use device identifiers and in-app SDKs (e.g., Firebase, RevenueCat, Superwall) to measure engagement and subscription activity.
+            TBreak does not use web cookies. We may use device identifiers and in-app SDKs (e.g., Firebase, RevenueCat, Superwall) to measure engagement and subscription activity.
           </p>
 
           <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">8. Third-Party Links</h2>
           <p className="mb-6 text-gray-700">
-            Leaves may contain links to third-party websites or services. We are not responsible for their privacy practices, and we encourage you to review their policies before providing any information.
+            TBreak may contain links to third-party websites or services. We are not responsible for their privacy practices, and we encourage you to review their policies before providing any information.
           </p>
 
           <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">9. Updates to this Policy</h2>
           <p className="mb-6 text-gray-700">
-            We may update this Privacy Policy from time to time. If significant changes are made, we will notify you through the app or via email. Continued use of Leaves after changes means you accept the revised Policy.
+            We may update this Privacy Policy from time to time. If significant changes are made, we will notify you through the app or via email. Continued use of TBreak after changes means you accept the revised Policy.
           </p>
 
           <div className="mt-12 pt-8 border-t border-gray-200">
             <h2 className="text-2xl font-bold mb-4 text-[#1e1d1b]">📧 Contact Us</h2>
             <p className="text-gray-700">
-              For privacy questions, please email us at <a href="mailto:support@quitleaves.xyz" className="text-[#1db584] hover:underline">support@quitleaves.xyz</a>
+              For privacy questions, please email us at <a href="mailto:support@tbreakapp.xyz" className="text-[#1db584] hover:underline">support@tbreakapp.xyz</a>
             </p>
           </div>
         </div>
@@ -161,7 +161,7 @@ export default function Privacy() {
             <a href="/faq" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">FAQ</a>
           </nav>
           <p className="text-center text-gray-500 text-xs">
-            © 2025 Leaves. All rights reserved.
+            © 2025 TBreak. All rights reserved.
           </p>
         </div>
       </footer>

@@ -10,14 +10,14 @@ export default function ContactPage() {
           <Link href="/" className="flex items-center">
             <Image
               src="/SplashLogo.png"
-              alt="Leaves app icon"
+              alt="TBreak app icon"
               width={40}
               height={40}
               className="mr-2 rounded-[22%]"
             />
             <Image
-              src="/LeavesLogo.png"
-              alt="Leaves"
+              src="/TBreakLogo.png"
+              alt="TBreak"
               width={100}
               height={30}
               className="object-contain"
@@ -45,13 +45,13 @@ export default function ContactPage() {
           
           {/* Description */}
           <p className="text-gray-700 mb-8 leading-relaxed">
-            At Leaves, we're here to support you every step of the way. If you have any questions, concerns, or need assistance with our platform, we're just an email away.
+            At TBreak, we're here to support you every step of the way. If you have any questions, concerns, or need assistance with our platform, we're just an email away.
           </p>
           
           {/* Email */}
           <div className="mb-8">
             <p className="text-lg font-semibold text-[#1e1d1b]">
-              Email: <a href="mailto:support@quitleaves.xyz" className="text-[#1db584] hover:underline">support@quitleaves.xyz</a>
+              Email: <a href="mailto:support@tbreakapp.xyz" className="text-[#1db584] hover:underline">support@tbreakapp.xyz</a>
             </p>
           </div>
           
@@ -74,7 +74,7 @@ export default function ContactPage() {
             <a href="/faq" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">FAQ</a>
           </nav>
           <p className="text-center text-gray-500 text-xs">
-            © 2025 Leaves. All rights reserved.
+            © 2025 TBreak. All rights reserved.
           </p>
         </div>
       </footer>

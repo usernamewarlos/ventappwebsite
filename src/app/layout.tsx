@@ -18,30 +18,30 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://leavesapp.com"),
   title: {
-    default: "Leaves - Quit Weed & Cannabis App | Track Your Sobriety Journey",
-    template: "%s | Leaves App"
+    default: "TBreak - Quit Weed & Cannabis App | Track Your Sobriety Journey",
+    template: "%s | TBreak App"
   },
-  description: "Break free from cannabis dependency with Leaves. Track sobriety milestones, manage withdrawal symptoms, get daily motivation, and connect with a supportive community. Start your recovery journey today.",
+  description: "Break free from cannabis dependency with TBreak. Track sobriety milestones, manage withdrawal symptoms, get daily motivation, and connect with a supportive community. Start your recovery journey today.",
   keywords: ["quit weed", "quit cannabis", "sobriety tracker", "addiction recovery", "marijuana withdrawal", "cannabis dependency", "quit smoking weed", "sobriety app", "recovery support", "habit tracker"],
-  authors: [{ name: "Leaves App Team" }],
-  creator: "Leaves App",
-  publisher: "Leaves App",
+  authors: [{ name: "TBreak App Team" }],
+  creator: "TBreak App",
+  publisher: "TBreak App",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
   openGraph: {
-    title: "Leaves - Quit Weed & Cannabis App",
+    title: "TBreak - Quit Weed & Cannabis App",
     description: "Your journey to sobriety starts here. Track progress, manage cravings, and build healthy habits.",
     url: "https://leavesapp.com",
-    siteName: "Leaves App",
+    siteName: "TBreak App",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Leaves - Quit Weed App",
+        alt: "TBreak - Quit Weed App",
       },
     ],
     locale: "en_US",
@@ -49,8 +49,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Leaves - Quit Weed & Cannabis App",
-    description: "Break free from cannabis dependency. Track your sobriety journey with Leaves.",
+    title: "TBreak - Quit Weed & Cannabis App",
+    description: "Break free from cannabis dependency. Track your sobriety journey with TBreak.",
     images: ["/og-image.png"],
     creator: "@leavesapp",
   },
@@ -79,10 +79,10 @@ export const metadata: Metadata = {
 const jsonLdOrganization = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Leaves App",
+  "name": "TBreak App",
   "url": "https://leavesapp.com",
   "logo": "https://leavesapp.com/SplashLogo.png",
-  "description": "Leaves helps people quit cannabis and build a healthier lifestyle through tracking, support, and science-backed recovery tools.",
+  "description": "TBreak helps people quit cannabis and build a healthier lifestyle through tracking, support, and science-backed recovery tools.",
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "Customer Support",
@@ -99,7 +99,7 @@ const jsonLdOrganization = {
 const jsonLdWebsite = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "Leaves App",
+  "name": "TBreak App",
   "url": "https://leavesapp.com",
   "potentialAction": {
     "@type": "SearchAction",
@@ -114,7 +114,7 @@ const jsonLdWebsite = {
 const jsonLdMobileApp = {
   "@context": "https://schema.org",
   "@type": "MobileApplication",
-  "name": "Leaves - Quit Weed",
+  "name": "TBreak - Quit Weed",
   "operatingSystem": "iOS",
   "applicationCategory": "HealthApplication",
   "aggregateRating": {
@@ -135,7 +135,7 @@ const jsonLdMobileApp = {
   ],
   "author": {
     "@type": "Organization",
-    "name": "Leaves App",
+    "name": "TBreak App",
     "url": "https://leavesapp.com"
   }
 };

@@ -11,20 +11,20 @@ interface FAQItem {
 
 const faqItems: FAQItem[] = [
   {
-    question: "What is Leaves?",
-    answer: "Leaves is an app built to help you quit weed and stay on track. It includes a sobriety timer to mark your progress, guided meditations for cravings, recovery stats to keep you motivated, and a community of people on the same journey. Whether you're just starting out or already building long-term habits, Leaves gives you the tools and support you need."
+    question: "What is TBreak?",
+    answer: "TBreak is an app built to help you quit weed and stay on track. It includes a sobriety timer to mark your progress, guided meditations for cravings, recovery stats to keep you motivated, and a community of people on the same journey. Whether you're just starting out or already building long-term habits, TBreak gives you the tools and support you need."
   },
   {
-    question: "How does Leaves protect my privacy?",
+    question: "How does TBreak protect my privacy?",
     answer: "Your privacy is our top priority. All personal data is encrypted and stored securely. We never share your information with third parties for marketing purposes. Your sobriety journey remains completely private, and you can delete your data at any time through the app settings."
   },
   {
-    question: "Can I use Leaves offline?",
+    question: "Can I use TBreak offline?",
     answer: "Yes! Core features like day tracking, journaling, and saved meditations work offline. Your data syncs automatically when you reconnect to the internet. Only community features and new content downloads require an active connection."
   },
   {
-    question: "Is Leaves free?",
-    answer: "Yes, you can download and use Leaves for free to get started. For best results, we recommend upgrading."
+    question: "Is TBreak free?",
+    answer: "Yes, you can download and use TBreak for free to get started. For best results, we recommend upgrading."
   },
   {
     question: "Is there an Android app?",
@@ -47,14 +47,14 @@ export default function FAQClient() {
           <Link href="/" className="flex items-center">
             <Image
               src="/SplashLogo.png"
-              alt="Leaves app icon"
+              alt="TBreak app icon"
               width={40}
               height={40}
               className="mr-2 rounded-[22%]"
             />
             <Image
-              src="/LeavesLogo.png"
-              alt="Leaves"
+              src="/TBreakLogo.png"
+              alt="TBreak"
               width={100}
               height={30}
               className="object-contain"
@@ -73,7 +73,7 @@ export default function FAQClient() {
           Back to Home
         </Link>
         
-        <h1 className="text-5xl font-bold text-center mb-4 text-[#1e1d1b]">Leaves FAQ</h1>
+        <h1 className="text-5xl font-bold text-center mb-4 text-[#1e1d1b]">TBreak FAQ</h1>
         <p className="text-center text-gray-600 mb-12">Everything you need to know about your recovery journey</p>
 
         <div className="space-y-4">
@@ -111,7 +111,7 @@ export default function FAQClient() {
             We're here to help! Reach out to our support team anytime.
           </p>
           <a
-            href="mailto:support@quitleaves.xyz"
+            href="mailto:support@tbreakapp.xyz"
             className="inline-block px-6 py-3 bg-[#1db584] text-white rounded-lg hover:bg-[#1aa074] transition-colors"
           >
             Contact Support
@@ -130,7 +130,7 @@ export default function FAQClient() {
             <a href="/faq" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">FAQ</a>
           </nav>
           <p className="text-center text-gray-500 text-xs">
-            © 2025 Leaves. All rights reserved.
+            © 2025 TBreak. All rights reserved.
           </p>
         </div>
       </footer>

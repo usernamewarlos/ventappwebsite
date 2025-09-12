@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Next.js 15 landing page for the "Leaves" quit weed/cannabis app, using:
+This is a Next.js 15 landing page for the "TBreak" quit weed/cannabis app, using:
 - TypeScript for type safety
 - Tailwind CSS for styling
 - shadcn/ui components (class-variance-authority, clsx, tailwind-merge)

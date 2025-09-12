@@ -3,10 +3,10 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Leaves - Quit Weed & Cannabis App | Start Your Recovery Today",
-  description: "Join thousands who've successfully quit cannabis with Leaves. Track sobriety milestones, manage withdrawal symptoms, access guided meditations, and connect with a supportive recovery community.",
+  title: "TBreak - Quit Weed & Cannabis App | Start Your Recovery Today",
+  description: "Join thousands who've successfully quit cannabis with TBreak. Track sobriety milestones, manage withdrawal symptoms, access guided meditations, and connect with a supportive recovery community.",
   openGraph: {
-    title: "Leaves - Your Cannabis Recovery Companion",
+    title: "TBreak - Your Cannabis Recovery Companion",
     description: "Break free from cannabis dependency with science-backed tools and community support",
     url: "https://leavesapp.com",
     images: [
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Leaves App - Quit Cannabis Successfully",
+        alt: "TBreak App - Quit Cannabis Successfully",
       },
     ],
   },
@@ -36,7 +36,7 @@ const breadcrumbSchema = {
 const softwareAppSchema = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  "name": "Leaves - Quit Weed",
+  "name": "TBreak - Quit Weed",
   "operatingSystem": "iOS 12.0 or later",
   "applicationCategory": "HealthApplication",
   "aggregateRating": {
@@ -53,7 +53,7 @@ const softwareAppSchema = {
   },
   "author": {
     "@type": "Organization",
-    "name": "Leaves App"
+    "name": "TBreak App"
   },
   "downloadUrl": "https://apps.apple.com/app/leaves-quit-weed",
   "featureList": [
@@ -85,14 +85,14 @@ export default function Home() {
           <div className="flex items-center">
             <Image
               src="/SplashLogo.png"
-              alt="Leaves app icon"
+              alt="TBreak app icon"
               width={40}
               height={40}
               className="mr-2 rounded-[22%]"
             />
             <Image
-              src="/LeavesLogo.png"
-              alt="Leaves"
+              src="/TBreakLogo.png"
+              alt="TBreak"
               width={100}
               height={30}
               className="object-contain"
@@ -133,8 +133,8 @@ export default function Home() {
         {/* Phone Screenshot */}
         <main className="flex justify-center mb-12">
           <Image
-            src="/leaves-screenshot.png"
-            alt="LEAVES App Screenshot"
+            src="/phone2.png"
+            alt="TBreak App Screenshot"
             width={300}
             height={650}
             className="object-contain"
@@ -209,7 +209,7 @@ export default function Home() {
             <a href="/faq" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">FAQ</a>
           </nav>
           <p className="text-center text-gray-500 text-xs">
-            © 2025 Leaves. All rights reserved.
+            © 2025 TBreak. All rights reserved.
           </p>
         </footer>
       </div>

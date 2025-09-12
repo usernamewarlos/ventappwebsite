@@ -10,14 +10,14 @@ export default function Terms() {
           <Link href="/" className="flex items-center">
             <Image
               src="/SplashLogo.png"
-              alt="Leaves app icon"
+              alt="TBreak app icon"
               width={40}
               height={40}
               className="mr-2 rounded-[22%]"
             />
             <Image
-              src="/LeavesLogo.png"
-              alt="Leaves"
+              src="/TBreakLogo.png"
+              alt="TBreak"
               width={100}
               height={30}
               className="object-contain"
@@ -42,17 +42,17 @@ export default function Terms() {
 
         <div className="prose prose-lg max-w-none">
           <p className="mb-8 text-gray-700">
-            Welcome to Leaves – a science-backed app designed to help people quit cannabis and build lasting, healthier habits. These Terms & Conditions ("Terms") govern your use of Leaves, so please read them carefully before continuing. By downloading, accessing, or using the app, you agree to be legally bound by these Terms. If you do not agree, you must stop using Leaves immediately.
+            Welcome to TBreak – a science-backed app designed to help people quit cannabis and build lasting, healthier habits. These Terms & Conditions ("Terms") govern your use of TBreak, so please read them carefully before continuing. By downloading, accessing, or using the app, you agree to be legally bound by these Terms. If you do not agree, you must stop using TBreak immediately.
           </p>
 
-          <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">1. Who Can Use Leaves</h2>
+          <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">1. Who Can Use TBreak</h2>
           <p className="mb-6 text-gray-700">
-            You must be at least 16 years old to use this app. By creating an account or otherwise accessing Leaves, you confirm you meet this age requirement. Parents or guardians are responsible for monitoring the use of Leaves by minors under their supervision.
+            You must be at least 16 years old to use this app. By creating an account or otherwise accessing TBreak, you confirm you meet this age requirement. Parents or guardians are responsible for monitoring the use of TBreak by minors under their supervision.
           </p>
 
           <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">2. Accounts and Security</h2>
           <p className="mb-4 text-gray-700">
-            Some features of Leaves may require registration. When creating an account, you agree to:
+            Some features of TBreak may require registration. When creating an account, you agree to:
           </p>
           <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
             <li>Provide accurate and complete information.</li>
@@ -65,22 +65,22 @@ export default function Terms() {
 
           <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">3. Acceptable Use</h2>
           <p className="mb-4 text-gray-700">
-            Leaves is intended to provide tools, education, and community support for quitting cannabis. You agree not to:
+            TBreak is intended to provide tools, education, and community support for quitting cannabis. You agree not to:
           </p>
           <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
             <li>Use the app for any illegal or harmful purposes.</li>
             <li>Interfere with or disrupt the app's functionality.</li>
-            <li>Attempt to reverse engineer, copy, or exploit Leaves' software or content.</li>
+            <li>Attempt to reverse engineer, copy, or exploit TBreak's software or content.</li>
           </ul>
 
           <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">4. Privacy</h2>
           <p className="mb-6 text-gray-700">
-            Your privacy matters to us. Please review our <Link href="/privacy" className="text-[#1db584] hover:underline">Privacy Policy</Link> to understand how we collect, use, and protect your personal information. By using Leaves, you consent to the practices described in the Privacy Policy.
+            Your privacy matters to us. Please review our <Link href="/privacy" className="text-[#1db584] hover:underline">Privacy Policy</Link> to understand how we collect, use, and protect your personal information. By using TBreak, you consent to the practices described in the Privacy Policy.
           </p>
 
           <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">5. Subscriptions and Payments</h2>
           <p className="mb-4 text-gray-700">
-            Certain features of Leaves are available through a paid subscription. By subscribing, you agree to:
+            Certain features of TBreak are available through a paid subscription. By subscribing, you agree to:
           </p>
           <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
             <li>Pay the fees associated with your plan on time.</li>
@@ -92,7 +92,7 @@ export default function Terms() {
 
           <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">6. Community Standards</h2>
           <p className="mb-4 text-gray-700">
-            Leaves includes supportive spaces for people working toward sobriety. By participating, you agree to:
+            TBreak includes supportive spaces for people working toward sobriety. By participating, you agree to:
           </p>
           <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
             <li>Treat all members with respect.</li>
@@ -104,17 +104,17 @@ export default function Terms() {
 
           <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">7. Ownership of Content</h2>
           <p className="mb-6 text-gray-700">
-            All trademarks, text, graphics, software, and other materials provided through Leaves belong to us or our licensors. You may not copy, reproduce, or distribute them without prior written consent.
+            All trademarks, text, graphics, software, and other materials provided through TBreak belong to us or our licensors. You may not copy, reproduce, or distribute them without prior written consent.
           </p>
 
           <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">8. Disclaimers</h2>
           <p className="mb-6 text-gray-700">
-            Leaves is provided on an "as is" and "as available" basis. We do not guarantee uninterrupted service, error-free functionality, or any specific outcomes from using the app. Individual results may vary.
+            TBreak is provided on an "as is" and "as available" basis. We do not guarantee uninterrupted service, error-free functionality, or any specific outcomes from using the app. Individual results may vary.
           </p>
 
           <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">9. Limitation of Liability</h2>
           <p className="mb-4 text-gray-700">
-            To the fullest extent permitted by law, Leaves and its creators will not be responsible for:
+            To the fullest extent permitted by law, TBreak and its creators will not be responsible for:
           </p>
           <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
             <li>Any damages (direct, indirect, incidental, or consequential) resulting from your use or inability to use the app.</li>
@@ -123,12 +123,12 @@ export default function Terms() {
 
           <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">10. Updates to These Terms</h2>
           <p className="mb-6 text-gray-700">
-            We may revise these Terms from time to time. If we make significant changes, we will notify you through the app or by other means. Continued use of Leaves after updates means you accept the revised Terms.
+            We may revise these Terms from time to time. If we make significant changes, we will notify you through the app or by other means. Continued use of TBreak after updates means you accept the revised Terms.
           </p>
 
           <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">11. Ending Your Use</h2>
           <p className="mb-6 text-gray-700">
-            We may suspend or permanently terminate your access to Leaves if you violate these Terms, disrupt the community, or engage in unlawful activity. You may also stop using Leaves at any time.
+            We may suspend or permanently terminate your access to TBreak if you violate these Terms, disrupt the community, or engage in unlawful activity. You may also stop using TBreak at any time.
           </p>
 
           <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">12. Governing Law</h2>
@@ -139,7 +139,7 @@ export default function Terms() {
           <div className="mt-12 pt-8 border-t border-gray-200">
             <h2 className="text-2xl font-bold mb-4 text-[#1e1d1b]">📧 Contact Us</h2>
             <p className="text-gray-700">
-              For questions about these Terms, please email us at <a href="mailto:support@quitleaves.xyz" className="text-[#1db584] hover:underline">support@quitleaves.xyz</a>
+              For questions about these Terms, please email us at <a href="mailto:support@tbreakapp.xyz" className="text-[#1db584] hover:underline">support@tbreakapp.xyz</a>
             </p>
           </div>
         </div>
@@ -156,7 +156,7 @@ export default function Terms() {
             <a href="/faq" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">FAQ</a>
           </nav>
           <p className="text-center text-gray-500 text-xs">
-            © 2025 Leaves. All rights reserved.
+            © 2025 TBreak. All rights reserved.
           </p>
         </div>
       </footer>

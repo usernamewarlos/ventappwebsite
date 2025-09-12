@@ -134,14 +134,14 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <Link href="/" className="flex items-center">
             <Image
               src="/SplashLogo.png"
-              alt="Leaves app icon"
+              alt="TBreak app icon"
               width={40}
               height={40}
               className="mr-2 rounded-[22%]"
             />
             <Image
-              src="/LeavesLogo.png"
-              alt="Leaves"
+              src="/TBreakLogo.png"
+              alt="TBreak"
               width={100}
               height={30}
               className="object-contain"
@@ -204,14 +204,14 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             Ready to quit cannabis?
           </h3>
           <p className="text-gray-700 mb-6">
-            Join thousands who have successfully broken free with the Leaves app. 
+            Join thousands who have successfully broken free with the TBreak app. 
             Track your progress, get support, and reclaim your life.
           </p>
           <Link
             href="https://apps.apple.com/app/id6738099367"
             className="inline-flex items-center gap-2 bg-green-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-700 transition-colors"
           >
-            Download Leaves Now
+            Download TBreak Now
             <span>→</span>
           </Link>
         </div>
@@ -241,7 +241,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <Link href="/faq" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">FAQ</Link>
           </nav>
           <p className="text-center text-gray-500 text-xs">
-            © 2025 Leaves. All rights reserved.
+            © 2025 TBreak. All rights reserved.
           </p>
         </div>
       </footer>
