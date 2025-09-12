@@ -55,7 +55,7 @@ const softwareAppSchema = {
     "@type": "Organization",
     "name": "TBreak App"
   },
-  "downloadUrl": "https://apps.apple.com/app/leaves-quit-weed",
+  "downloadUrl": "https://apps.apple.com/us/app/tbreak-quit-weed/id6751524324",
   "featureList": [
     "Sobriety Timer",
     "Withdrawal Symptom Tracker",
@@ -115,7 +115,7 @@ export default function Home() {
           {/* App Store Button */}
           <div className="flex items-center justify-center mb-10">
             <a
-              href="https://apps.apple.com/us/app/leaves-quit-weed/id6478061869"
+              href="https://apps.apple.com/us/app/tbreak-quit-weed/id6751524324"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -184,7 +184,7 @@ export default function Home() {
 
           <div className="flex items-center justify-center">
             <a
-              href="https://apps.apple.com/us/app/leaves-quit-weed/id6478061869"
+              href="https://apps.apple.com/us/app/tbreak-quit-weed/id6751524324"
               target="_blank"
               rel="noopener noreferrer"
             >

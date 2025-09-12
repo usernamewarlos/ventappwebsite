@@ -208,7 +208,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             Track your progress, get support, and reclaim your life.
           </p>
           <Link
-            href="https://apps.apple.com/app/id6738099367"
+            href="https://apps.apple.com/us/app/tbreak-quit-weed/id6751524324"
             className="inline-flex items-center gap-2 bg-green-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-700 transition-colors"
           >
             Download TBreak Now

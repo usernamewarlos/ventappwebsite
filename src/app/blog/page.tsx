@@ -62,7 +62,7 @@ export default function BlogPage() {
             Track your progress, connect with others, and reclaim your life.
           </p>
           <Link
-            href="https://apps.apple.com/app/id6738099367"
+            href="https://apps.apple.com/us/app/tbreak-quit-weed/id6751524324"
             className="inline-flex items-center gap-2 bg-green-600 text-white px-8 py-4 rounded-full font-semibold hover:bg-green-700 transition-colors"
           >
             Download TBreak App
