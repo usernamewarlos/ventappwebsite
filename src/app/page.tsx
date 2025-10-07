@@ -3,18 +3,18 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "TBreak - Quit Weed & Cannabis App | Start Your Recovery Today",
-  description: "Join thousands who've successfully quit cannabis with TBreak. Track sobriety milestones, manage withdrawal symptoms, access guided meditations, and connect with a supportive recovery community.",
+  title: "VENT - Mood & Journal | Track Your Emotions & Mental Wellness",
+  description: "Express yourself with VENT - Mood & Journal. Track your moods, journal your thoughts, and understand your emotional patterns for better mental wellness.",
   openGraph: {
-    title: "TBreak - Your Cannabis Recovery Companion",
-    description: "Break free from cannabis dependency with science-backed tools and community support",
+    title: "VENT - Mood & Journal",
+    description: "Track your moods and journal your thoughts for better mental wellness",
     url: "https://leavesapp.com",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "TBreak App - Quit Cannabis Successfully",
+        alt: "VENT - Mood & Journal App",
       },
     ],
   },
@@ -36,7 +36,7 @@ const breadcrumbSchema = {
 const softwareAppSchema = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  "name": "TBreak - Quit Weed",
+  "name": "VENT - Mood & Journal",
   "operatingSystem": "iOS 12.0 or later",
   "applicationCategory": "HealthApplication",
   "aggregateRating": {
@@ -53,17 +53,17 @@ const softwareAppSchema = {
   },
   "author": {
     "@type": "Organization",
-    "name": "TBreak App"
+    "name": "VENT App"
   },
   "downloadUrl": "https://apps.apple.com/us/app/tbreak-quit-weed/id6751524324",
   "featureList": [
-    "Sobriety Timer",
-    "Withdrawal Symptom Tracker",
-    "Guided Meditations",
-    "Community Support",
-    "Daily Motivation",
-    "Progress Statistics",
-    "Relapse Recovery Tools"
+    "Mood Tracking",
+    "Journal Entries",
+    "Emotion Analysis",
+    "Daily Reflection",
+    "Mental Wellness Insights",
+    "Progress Tracking",
+    "Privacy-Focused"
   ]
 };
 
@@ -78,25 +78,24 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareAppSchema) }}
       />
-      <div className="min-h-screen bg-gray-50">
+      <div className="min-h-screen" style={{ backgroundColor: '#1A1D28' }}>
       {/* Header */}
       <nav className="w-full py-4">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center">
             <Image
-              src="/SplashLogo.png"
-              alt="TBreak app icon"
+              src="/AppIconImage.png"
+              alt="VENT app icon"
               width={40}
               height={40}
               className="mr-2 rounded-[22%]"
             />
             <Image
               src="/TBreakLogo.png"
-              alt="TBreak"
+              alt="VENT"
               width={100}
               height={30}
               className="object-contain"
-              style={{ filter: "brightness(0) saturate(100%) invert(44%) sepia(85%) saturate(1352%) hue-rotate(126deg) brightness(96%) contrast(87%)" }}
             />
           </div>
         </div>
@@ -105,11 +104,11 @@ export default function Home() {
       <div className="max-w-7xl mx-auto px-6">
         {/* Hero Section */}
         <header className="text-center py-8">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1e1d1b] mb-3 leading-tight">
-            Ready to quit weed for good?
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-3 leading-tight">
+            Express yourself, understand yourself
           </h1>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1db584] mb-8 leading-tight">
-            Let's turn over a new leaf.
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8 leading-tight" style={{ color: '#E85A4F' }}>
+            Track your moods, journal your journey
           </h2>
 
           {/* App Store Button */}
@@ -133,8 +132,8 @@ export default function Home() {
         {/* Phone Screenshot */}
         <main className="flex justify-center mb-12">
           <Image
-            src="/phone2.png"
-            alt="TBreak App Screenshot"
+            src="/webscreenshot.png"
+            alt="VENT App Screenshot"
             width={300}
             height={650}
             className="object-contain"
@@ -142,32 +141,32 @@ export default function Home() {
         </main>
         {/* Features Section */}
         <section className="py-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-[#1e1d1b] mb-10">
-            Your journey to sobriety starts here
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-10" style={{ color: '#E85A4F' }}>
+            Your emotional wellness companion
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
-              <div className="text-5xl mb-4">📅</div>
-              <h3 className="text-lg font-semibold text-[#1e1d1b] mb-3">Track your progress</h3>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Count your sober days and celebrate milestones
+              <div className="text-5xl mb-4">😊</div>
+              <h3 className="text-lg font-semibold mb-3" style={{ color: '#E85A4F' }}>Track your moods</h3>
+              <p className="text-white text-sm leading-relaxed">
+                Record how you're feeling and discover emotional patterns
               </p>
             </div>
 
             <div className="text-center">
-              <div className="text-5xl mb-4">🧘</div>
-              <h3 className="text-lg font-semibold text-[#1e1d1b] mb-3">Manage cravings</h3>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Meditation and breathing exercises when you need them
+              <div className="text-5xl mb-4">📝</div>
+              <h3 className="text-lg font-semibold mb-3" style={{ color: '#E85A4F' }}>Journal your thoughts</h3>
+              <p className="text-white text-sm leading-relaxed">
+                Express yourself freely in a safe, private space
               </p>
             </div>
 
             <div className="text-center">
-              <div className="text-5xl mb-4">💪</div>
-              <h3 className="text-lg font-semibold text-[#1e1d1b] mb-3">Build new habits</h3>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Replace old patterns with healthy alternatives
+              <div className="text-5xl mb-4">📊</div>
+              <h3 className="text-lg font-semibold mb-3" style={{ color: '#E85A4F' }}>Understand yourself</h3>
+              <p className="text-white text-sm leading-relaxed">
+                Gain insights into your mental wellness journey
               </p>
             </div>
           </div>
@@ -175,11 +174,11 @@ export default function Home() {
 
         {/* Final CTA Section */}
         <section className="text-center py-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#1e1d1b] mb-4">
-            Ready to start your recovery?
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            Start your wellness journey today
           </h2>
-          <p className="text-lg text-gray-600 mb-8">
-            Join thousands who've successfully quit cannabis
+          <p className="text-lg text-white mb-8">
+            Join others tracking their emotional wellness with VENT
           </p>
 
           <div className="flex items-center justify-center">
@@ -200,16 +199,15 @@ export default function Home() {
         </section>
 
         {/* Footer */}
-        <footer className="py-8 border-t border-gray-200">
+        <footer className="py-8 border-t border-gray-700">
           <nav className="flex flex-wrap justify-center gap-6 mb-4">
-            <Link href="/blog" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">Blog</Link>
-            <a href="/privacy" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">Privacy</a>
-            <a href="/terms" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">Terms</a>
-            <a href="/contact" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">Contact</a>
-            <a href="/faq" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">FAQ</a>
+            <a href="/privacy" className="text-white hover:text-gray-300 transition-colors text-sm">Privacy</a>
+            <a href="/terms" className="text-white hover:text-gray-300 transition-colors text-sm">Terms</a>
+            <a href="/contact" className="text-white hover:text-gray-300 transition-colors text-sm">Contact</a>
+            <a href="/faq" className="text-white hover:text-gray-300 transition-colors text-sm">FAQ</a>
           </nav>
-          <p className="text-center text-gray-500 text-xs">
-            © 2025 TBreak. All rights reserved.
+          <p className="text-center text-white text-xs">
+            © 2025 VENT. All rights reserved.
           </p>
         </footer>
       </div>

@@ -66,9 +66,9 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/SplashLogo.png",
-    apple: "/SplashLogo.png",
-    shortcut: "/SplashLogo.png",
+    icon: "/AppIconImage.png",
+    apple: "/AppIconImage.png",
+    shortcut: "/AppIconImage.png",
   },
   manifest: "/manifest.json",
   alternates: {

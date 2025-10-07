@@ -1,165 +1,107 @@
-import Image from "next/image";
-import Link from "next/link";
+import type { Metadata } from "next";
 
-export default function Terms() {
+export const metadata: Metadata = {
+  title: "Terms of Service",
+  description: "VENT - Mood & Journal terms of service and user agreement.",
+};
+
+export default function TermsOfService() {
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <nav className="w-full py-4">
-        <div className="max-w-7xl mx-auto px-4">
-          <Link href="/" className="flex items-center">
-            <Image
-              src="/SplashLogo.png"
-              alt="TBreak app icon"
-              width={40}
-              height={40}
-              className="mr-2 rounded-[22%]"
-            />
-            <Image
-              src="/TBreakLogo.png"
-              alt="TBreak"
-              width={100}
-              height={30}
-              className="object-contain"
-              style={{ filter: "brightness(0) saturate(100%) invert(44%) sepia(85%) saturate(1352%) hue-rotate(126deg) brightness(96%) contrast(87%)" }}
-            />
-          </Link>
-        </div>
-      </nav>
-
+    <div className="min-h-screen" style={{ backgroundColor: '#1A1D28' }}>
       <div className="max-w-4xl mx-auto px-6 py-12">
-        <Link 
-          href="/" 
-          className="inline-flex items-center text-gray-600 hover:text-green-600 transition-colors mb-8"
-        >
-          <span className="mr-2">←</span>
-          Back to Home
-        </Link>
-        
-        <h1 className="text-5xl font-bold text-center mb-8 text-[#1e1d1b]">terms & conditions</h1>
-        
-        <p className="text-gray-500 text-center mb-12 italic">last updated: August 27, 2025</p>
+        <h1 className="text-4xl font-bold text-white mb-8">Terms of Service</h1>
 
-        <div className="prose prose-lg max-w-none">
-          <p className="mb-8 text-gray-700">
-            Welcome to TBreak – a science-backed app designed to help people quit cannabis and build lasting, healthier habits. These Terms & Conditions ("Terms") govern your use of TBreak, so please read them carefully before continuing. By downloading, accessing, or using the app, you agree to be legally bound by these Terms. If you do not agree, you must stop using TBreak immediately.
+        <div className="space-y-6 text-white">
+          <p className="text-gray-300">
+            <strong>Last Updated:</strong> January 6, 2025
           </p>
 
-          <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">1. Who Can Use TBreak</h2>
-          <p className="mb-6 text-gray-700">
-            You must be at least 16 years old to use this app. By creating an account or otherwise accessing TBreak, you confirm you meet this age requirement. Parents or guardians are responsible for monitoring the use of TBreak by minors under their supervision.
-          </p>
-
-          <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">2. Accounts and Security</h2>
-          <p className="mb-4 text-gray-700">
-            Some features of TBreak may require registration. When creating an account, you agree to:
-          </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
-            <li>Provide accurate and complete information.</li>
-            <li>Keep your login credentials private and secure.</li>
-            <li>Inform us promptly if you suspect unauthorized access to your account.</li>
-          </ul>
-          <p className="mb-6 text-gray-700">
-            You are responsible for all activity under your account.
-          </p>
-
-          <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">3. Acceptable Use</h2>
-          <p className="mb-4 text-gray-700">
-            TBreak is intended to provide tools, education, and community support for quitting cannabis. You agree not to:
-          </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
-            <li>Use the app for any illegal or harmful purposes.</li>
-            <li>Interfere with or disrupt the app's functionality.</li>
-            <li>Attempt to reverse engineer, copy, or exploit TBreak's software or content.</li>
-          </ul>
-
-          <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">4. Privacy</h2>
-          <p className="mb-6 text-gray-700">
-            Your privacy matters to us. Please review our <Link href="/privacy" className="text-[#1db584] hover:underline">Privacy Policy</Link> to understand how we collect, use, and protect your personal information. By using TBreak, you consent to the practices described in the Privacy Policy.
-          </p>
-
-          <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">5. Subscriptions and Payments</h2>
-          <p className="mb-4 text-gray-700">
-            Certain features of TBreak are available through a paid subscription. By subscribing, you agree to:
-          </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
-            <li>Pay the fees associated with your plan on time.</li>
-            <li>Authorize recurring charges to your chosen payment method until you cancel.</li>
-          </ul>
-          <p className="mb-6 text-gray-700">
-            <strong>Cancellations & Refunds:</strong> You may cancel at any time through your device's app store or within the app. Subscriptions are non-refundable, except where required by law or by the policies of the app store through which you purchased.
-          </p>
-
-          <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">6. Community Standards</h2>
-          <p className="mb-4 text-gray-700">
-            TBreak includes supportive spaces for people working toward sobriety. By participating, you agree to:
-          </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
-            <li>Treat all members with respect.</li>
-            <li>Avoid sharing offensive, abusive, or illegal content.</li>
-          </ul>
-          <p className="mb-6 text-gray-700">
-            We reserve the right to remove posts or suspend accounts that violate these standards.
-          </p>
-
-          <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">7. Ownership of Content</h2>
-          <p className="mb-6 text-gray-700">
-            All trademarks, text, graphics, software, and other materials provided through TBreak belong to us or our licensors. You may not copy, reproduce, or distribute them without prior written consent.
-          </p>
-
-          <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">8. Disclaimers</h2>
-          <p className="mb-6 text-gray-700">
-            TBreak is provided on an "as is" and "as available" basis. We do not guarantee uninterrupted service, error-free functionality, or any specific outcomes from using the app. Individual results may vary.
-          </p>
-
-          <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">9. Limitation of Liability</h2>
-          <p className="mb-4 text-gray-700">
-            To the fullest extent permitted by law, TBreak and its creators will not be responsible for:
-          </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
-            <li>Any damages (direct, indirect, incidental, or consequential) resulting from your use or inability to use the app.</li>
-            <li>Any loss of data, revenue, or reputation connected with the app.</li>
-          </ul>
-
-          <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">10. Updates to These Terms</h2>
-          <p className="mb-6 text-gray-700">
-            We may revise these Terms from time to time. If we make significant changes, we will notify you through the app or by other means. Continued use of TBreak after updates means you accept the revised Terms.
-          </p>
-
-          <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">11. Ending Your Use</h2>
-          <p className="mb-6 text-gray-700">
-            We may suspend or permanently terminate your access to TBreak if you violate these Terms, disrupt the community, or engage in unlawful activity. You may also stop using TBreak at any time.
-          </p>
-
-          <h2 className="text-2xl font-bold mt-12 mb-6 text-[#1e1d1b]">12. Governing Law</h2>
-          <p className="mb-6 text-gray-700">
-            These Terms will be governed by and interpreted under the laws of the United States, without regard to conflict of law rules.
-          </p>
-
-          <div className="mt-12 pt-8 border-t border-gray-200">
-            <h2 className="text-2xl font-bold mb-4 text-[#1e1d1b]">📧 Contact Us</h2>
-            <p className="text-gray-700">
-              For questions about these Terms, please email us at <a href="mailto:support@tbreakapp.xyz" className="text-[#1db584] hover:underline">support@tbreakapp.xyz</a>
+          <section>
+            <h2 className="text-2xl font-semibold mb-4" style={{ color: '#E85A4F' }}>Acceptance of Terms</h2>
+            <p className="text-gray-300 leading-relaxed">
+              By accessing or using VENT - Mood & Journal ("the App"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the App.
             </p>
-          </div>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4" style={{ color: '#E85A4F' }}>Use of the App</h2>
+            <p className="text-gray-300 leading-relaxed mb-3">
+              VENT is a mood tracking and journaling application designed to help you understand and improve your emotional wellness. You agree to:
+            </p>
+            <ul className="list-disc list-inside text-gray-300 space-y-2 ml-4">
+              <li>Use the App only for lawful purposes</li>
+              <li>Provide accurate information when using the App</li>
+              <li>Maintain the security of your account</li>
+              <li>Not misuse or attempt to manipulate the App's features</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4" style={{ color: '#E85A4F' }}>Medical Disclaimer</h2>
+            <p className="text-gray-300 leading-relaxed">
+              VENT is not a substitute for professional medical advice, diagnosis, or treatment. The App is designed for self-reflection and tracking purposes only. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical or mental health condition.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4" style={{ color: '#E85A4F' }}>User Content</h2>
+            <p className="text-gray-300 leading-relaxed">
+              You retain all rights to the content you create in the App, including your journal entries and mood data. By using VENT, you grant us the right to store and process your content solely for the purpose of providing the App's services to you.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4" style={{ color: '#E85A4F' }}>Subscription and Payments</h2>
+            <p className="text-gray-300 leading-relaxed">
+              Some features of VENT may require a subscription. Subscription fees are billed in advance on a recurring basis. You may cancel your subscription at any time through your device's app store settings.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4" style={{ color: '#E85A4F' }}>Intellectual Property</h2>
+            <p className="text-gray-300 leading-relaxed">
+              The App and its original content, features, and functionality are owned by VENT and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4" style={{ color: '#E85A4F' }}>Limitation of Liability</h2>
+            <p className="text-gray-300 leading-relaxed">
+              VENT and its affiliates shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use or inability to use the App.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4" style={{ color: '#E85A4F' }}>Termination</h2>
+            <p className="text-gray-300 leading-relaxed">
+              We reserve the right to terminate or suspend your access to the App at any time, without prior notice, for conduct that we believe violates these Terms of Service or is harmful to other users, us, or third parties.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4" style={{ color: '#E85A4F' }}>Changes to Terms</h2>
+            <p className="text-gray-300 leading-relaxed">
+              We reserve the right to modify these Terms of Service at any time. We will notify you of any changes by posting the new Terms on this page and updating the "Last Updated" date.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4" style={{ color: '#E85A4F' }}>Contact Us</h2>
+            <p className="text-gray-300 leading-relaxed">
+              If you have any questions about these Terms of Service, please contact us at:
+            </p>
+            <p className="text-gray-300 mt-2">
+              Email: support@ventapp.xyz
+            </p>
+          </section>
+        </div>
+
+        <div className="mt-12">
+          <a href="/" className="text-white hover:text-gray-300 transition-colors">
+            ← Back to Home
+          </a>
         </div>
       </div>
-
-      {/* Footer */}
-      <footer className="py-8 border-t border-gray-200">
-        <div className="max-w-7xl mx-auto px-6">
-          <nav className="flex flex-wrap justify-center gap-6 mb-4">
-            <Link href="/blog" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">Blog</Link>
-            <a href="/privacy" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">Privacy</a>
-            <a href="/terms" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">Terms</a>
-            <a href="/contact" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">Contact</a>
-            <a href="/faq" className="text-gray-600 hover:text-[#1e1d1b] transition-colors text-sm">FAQ</a>
-          </nav>
-          <p className="text-center text-gray-500 text-xs">
-            © 2025 TBreak. All rights reserved.
-          </p>
-        </div>
-      </footer>
     </div>
   );
 }
