@@ -14,7 +14,7 @@ export default function PrivacyPolicy() {
 
         <div className="space-y-6 text-white">
           <p className="text-gray-300">
-            <strong>Last Updated:</strong> January 6, 2025
+            <strong>Last Updated:</strong> October 8, 2025
           </p>
 
           <p className="text-gray-300 leading-relaxed">
